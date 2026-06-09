@@ -285,3 +285,22 @@ The following table indexes all 22 plugins deployed in this server configuration
 | 20 | **squaremap** | Mapping | Renders a 2D map of the server worlds to a web browser via an internal lightweight HTTP daemon. |
 | 21 | **PlaceholderAPI** | Library | Resolves internal values into readable text placeholders, enabling unified display boards. |
 | 22 | **PlayTime** | Administration | Records player session durations to a local database for tracking player retention and milestones. |
+
+---
+
+## 8. Automated Setup with Local AI Agents (AGENTS.md Companion)
+
+To make hosting a local Minecraft server as straightforward and frictionless as possible, this repository includes a dedicated instruction manual: [**`AGENTS.md`**](file:///home/mocha/Documents/programming/my-repositories/personal/my_minecraft_server-setup/AGENTS.md). 
+
+If you are using a local CLI-based AI coding assistant or terminal environment agent (such as **Antigravity**, **Claude Engineer**, **Roo Code**, or **Aider**), you can feed the contents of `AGENTS.md` to the agent as its system instructions.
+
+### What the AI Companion Will Do:
+1.  **Platform Detection**: Automatically detect whether your host system is running Linux (Arch, CachyOS, Ubuntu), Windows, or Termux on Android.
+2.  **Dependency Auditing**: Scan for Java 21, Git, Maven, and Playit, and guide you through their installations.
+3.  **Engine & Custom Plugin Preparation**: Automate downloading the Purpur 1.21.1 JAR and compiling the custom `FreecamShield` packet listener wrapper.
+4.  **Assisted Booting**: Launch startup scripts and handle EULA configuration variables.
+
+### What You (the User) Must Do:
+*   **Interactive Alignment**: The agent is explicitly programmed to **ask questions and request confirmation** before running any installation commands or modifying configurations. It acts as an interactive assistant to speed up your configuration rather than a silent one-shot script.
+*   **Manual Tunnel Authentication**: Setting up the **playit.gg** connection requires you to click a generated claim link in your terminal, log in to your browser, and link your agent. You must also configure the TCP (`25565`) and UDP (`19132`) tunnels on the playit.gg web dashboard yourself.
+
