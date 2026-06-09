@@ -1,0 +1,7 @@
+name: FreecamShield
+version: 1.0.0
+main: de.mocha.freecamshield.FreecamShield
+api-version: 1.21
+depend: [ProtocolLib]
+author: mocha
+description: Server-side packet layer clamp against freecam and visual-reconnaissance exploits.
