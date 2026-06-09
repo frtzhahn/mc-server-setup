@@ -1,0 +1,46 @@
+Barrels:
+  system-ID: Barrels
+  displayName: §cBarrels
+  itemGlowEffect: true
+  spawnMaterial: PIG_SPAWN_EGG
+  itemLore:
+  - §cTest1
+  - §a§lTest2
+  creator: ff5f37d0-c1ea-4736-b6c3-ebbfdd67a810
+  placeAbleSide: TOP
+  crafting:
+    recipe: AXC,DXF,GHI,
+    disable: false
+    index:
+      A: STICK
+      C: STICK
+      D: STICK
+      F: STICK
+      G: STICK
+      X: AIR
+      H: STICK
+      I: STICK
+  projectData:
+    entities:
+      '0': H4sIAAAAAAAAAONiYOBg4HLNK8ksqQypLEhl4HYM8vUPig8OcfRzYWbg9MwryyzOTMpJZWBgYGRmYPNNLMpOLQJxuBg4fPKTE0sy8/PYGDgidP3T0opTSxigACgUhSbEysAakFmSnAGVjoRK7/8Ak2aOTCyHsAETTrmtlgAAAA==
+    blockList:
+      '0':
+        xOffset: 0.0
+        yOffset: 0.0
+        zOffset: 0.0
+        material: CAULDRON
+  spawnItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PIG_SPAWN_EGG
+    meta:
+      ==: ItemMeta
+      meta-type: SPAWN_EGG
+      display-name: '{"text":"Barrels","italic":false,"color":"red"}'
+      lore:
+      - '{"text":"","extra":[{"text":"Test1","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"red","bold":false}]}'
+      - '{"text":"","extra":[{"text":"Test2","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"green","bold":true}]}'
+      PublicBukkitValues: |-
+        {
+            "furniturelib:model": "Barrels"
+        }

@@ -1,0 +1,35 @@
+Campfire1:
+  system-ID: Campfire1
+  displayName: '§cCampfire #1'
+  itemGlowEffect: false
+  spawnMaterial: PIG_SPAWN_EGG
+  itemLore: []
+  crafting:
+    recipe: XBX,DEF,XHX,
+    disable: false
+    index:
+      B: STICK
+      D: STICK
+      E: COAL
+      F: STICK
+      X: AIR
+      H: STICK
+  projectData:
+    entities:
+      '0': H4sIAAAAAAAAAONiYOBg4HLNK8ksqQypLEhl4HYM8vUPig8OcfRzYWZg800syk4tYmBgYORi4PDJT04syczPY2PgiND1T0srTi1hgAKgUBSaECsDa0BmSXIGVDoSKr3/WxoINLAyMEcmlkOUAgDFFDCUhgAAAA==
+      '1': H4sIAAAAAAAAAONiYOBg4HLNK8ksqQypLEhl4HYM8vUPig8OcfRzYWZg800syk4tYmBgYORi4PDJT04syczPY2PgiND1T0srTi1hgAKgUBSaECsDa0BmSXIGVDoSKr3/WxoINLAyMEcmljsVgKQBbV9yL4YAAAA=
+      '2': H4sIAAAAAAAAAONiYOBg4HLNK8ksqQypLEhl4HYM8vUPig8OcfRzYWZg800syk4tYmBgYORi4PDJT04syczPY2PgiND1T0srTi1hgAKgUBSaECsDa0BmSXIGVDoSKr3/WxoINLAyMEcmljubgKQBQXJdSYYAAAA=
+      '3': H4sIAAAAAAAAAONiYOBg4HLNK8ksqQypLEhl4HYM8vUPig8OcfRzYWZg800syk4tYmBgYORi4PDJT04syczPY2PgiND1T0srTi1hgAKgUBSaECsDa0BmSXIGVDoSKr3/WxoINLAyMEcmljt9AEkDAP/vlJ6GAAAA
+    blockList: ''
+  spawnItemStack:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3955
+    type: PIG_SPAWN_EGG
+    meta:
+      ==: ItemMeta
+      meta-type: SPAWN_EGG
+      display-name: '{"text":"Campfire #1","italic":false,"color":"red"}'
+      PublicBukkitValues: |-
+        {
+            "furniturelib:model": "Campfire1"
+        }
