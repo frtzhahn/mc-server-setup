@@ -1,0 +1,39 @@
+# ==============================================================================
+# Global Repository Filter Matrix - Minecraft Server Blueprint Template
+# ==============================================================================
+
+# --- Pre-compiled Core Binaries ---
+*.jar
+# EXCEPTION: Allow custom standalone plugins (like FreecamShield)
+!FreecamShield/**
+
+# --- Log Directories & Performance Caches ---
+logs/
+cache/
+spark/
+plugins/spark/
+crash-reports/
+*.log
+
+# --- World Database Arrays & Locks ---
+world/
+world_nether/
+world_the_end/
+session.lock
+**/session.lock
+uid.dat
+**/uid.dat
+
+# --- Local Runtime Tokens & Network Bridges ---
+playit.toml
+playit
+credentials.json
+.playit/
+usercache.json
+ip-info.json
+
+# --- Temporary System Locks & Thread Dumps ---
+*.db-shm
+*.db-wal
+# Note: Raw base structural templates like .db or .sqlite are preserved.
+# Only temporary write-ahead log (-wal) and shared memory (-shm) files are ignored.
